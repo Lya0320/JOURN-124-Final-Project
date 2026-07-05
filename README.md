@@ -12,16 +12,16 @@ Overall, the dataset is beneficial for the analysis of patterns in officially re
 ### Data Analysis
 This project analyzes the MTA Permanent Art Catalog, which comprises more than 380 officially documented artworks that have been installed throughout New York City's transit system. The analyzation here is mainly focused on categorical aggregation and arts trend over time. Here is the link: [MTA Permanent Art Catelog](https://docs.google.com/spreadsheets/d/1TvYbh9YQJdNyZXF4yfb-_EvMXx807A127qhn6G_4RI8/edit?usp=sharing)
 
-The dataset need little cleaning before analysis. The important columns for analyzation are all completed with no null or empty values in it. So no major missing data imputation and data cleaning is required here.
+The dataset need little cleaning before analysis. The important columns for analyzation are all completed without any null or empty values in it. There is only one "NA" appears in the "Art Description" column that has no effect on our analysis. So no major missing data imputation and data cleaning is required here.
 
-For the first pivot table and bar chart "Distribution Across Agencies". 
+For the first pivot table and its bar chart "Distribution Across Agencies". 
 
 ![This is a chart showing the distribution of artworks across different agencies](DistributionAcrossAgencies.png)
 
 This group artworks by MTA agency and quantified the number of installations in each category. Across the transit system, the results indicate a highly irregular distribution of permanent artworks.
 A key finding is that the NYC Subway system (NYCT) dominates the dataset, containing the majority of those recorded artworks. In contrast, commuter rail systems such as the Long Island Rail Road (LIRR) and Metro-North have significantly fewer installations, and smaller agencies such as the Staten Island Railway (SIR) and MTA Bus have only several artworks. This suggests that the permanent art is not evenly distributed across transit modes, instead, it heavily prioritizes high-traffic urban subway spaces where visibility and public exposure are the highest.
 
-For the second table and its line chart "Growth Over Time". This aggregates artworks by installation year.
+For the second pivot table and its line chart "Growth Over Time". This aggregates artworks by installation year.
 
 ![This is a line chart showing how number of artworks change over the time from 1980 to 2025](GrowthOverTime.png)
 
