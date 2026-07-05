@@ -14,13 +14,14 @@ This project analyzes the MTA Permanent Art Catalog, which comprises more than 
 
 The dataset need little cleaning before analysis. The important columns for analyzation are all completed with no null or empty values in it. So no major missing data imputation and data cleaning is required here.
 
-For the first pivot table and bar chart "Agency Distribution". 
-![This is a chart showing the distribution of artworks across different agencies](Distribution.png)
+For the first pivot table and bar chart "Distribution Across Agencies". 
+![This is a chart showing the distribution of artworks across different agencies](DistributionAcrossAgencies.png)
 
 This group artworks by MTA agency and quantified the number of installations in each category. Across the transit system, the results indicate a highly irregular distribution of permanent artworks.
 A key finding is that the NYC Subway system (NYCT) dominates the dataset, containing the majority of those recorded artworks. In contrast, commuter rail systems such as the Long Island Rail Road (LIRR) and Metro-North have significantly fewer installations, and smaller agencies such as the Staten Island Railway (SIR) and MTA Bus have only several artworks. This suggests that the permanent art is not evenly distributed across transit modes, instead, it heavily prioritizes high-traffic urban subway spaces where visibility and public exposure are the highest.
 
-For the second table and its line chart "Distribution Over Time". This aggregates artworks by installation year.
+For the second table and its line chart "Growth Over Time". This aggregates artworks by installation year.
+![This is a line chart showing how number of artworks change over the time from 1980 to 2025](GrowthOverTime.png)
 The results show that artwork installations are not evenly distributed over the time. The line is not perfectly linear or stable, instead, it fluctuates significantly across years, and there are periods of higher artistic activity followed by slower periods. Another notable finding is a significant increase in installations in 2018 and reach the peak among these years, this suggests that the program may have expanded or become more active in commissioning public art. It also reflects there might be some changes in funding cycles, transit development projects, or shifts in institutional priorities at that time.
 
 ### Summary
