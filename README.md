@@ -1,6 +1,11 @@
-# Permanent Art in New York's Transit System is Concentrated in the NYC Subway
+# Patterns of Inequality and Change in New York’s Transit Art System
 
-## This project uses the MTA Permanent Art Catalog dataset to analyze the distribution of permanent public artworks across the New York City Transit System. The goal is to study the distribution of public art across transit angencies and throughout time.
+### Introduction
+This project examines the MTA Permanent Art Catalog to see how permanent public artworks are distributed around New York City's transportation system and how this distribution varies over time. The analysis shows two main findings.
+
+First, the NYC Subway (NYCT) has the vast majority of permanent artworks, while commuter rail lines like the LIRR and Metro-North Railroad have few. 
+
+Second, the quantity of recorded artworks changes greatly across years, demonstrating that the MTA Arts & Design program does not operate at a constant rate, instead it follows cyclical patterns that may be affected by funds, infrastructure development, and institutional goals.
 
 ### Dataset Source and its Evaluation
 This project uses the MTA Permanent Art Catalog dataset from the New York State Open Data Portal [MTA Permanent Art Catalog: Beginning 1980](https://data.ny.gov/Transportation/MTA-Permanent-Art-Catalog-Beginning-1980/4y8j-9pkd/about_data).
@@ -21,7 +26,7 @@ For the first pivot table and its bar chart "Distribution Across Agencies". 
 
 The dataset is grouped by agency type and the number of artworks in each group is obtained using a COUNTA aggregation of artwork titles. This enabled a comparison of the distribution of public art across different transit systems, such as NYCT, LIRR and Metro-North. The numbers obtained are then represented as a bar chart in order to make discrepancies in distribution more readily obvious. The technique shows a highly irregular distribution of permanent artworks within the NYC Subway system compared to other transit agencies.
 
-A key finding is that the NYC Subway system (NYCT) dominates the dataset, containing the majority of those recorded artworks. In contrast, commuter rail systems such as the Long Island Rail Road (LIRR) and Metro-North have significantly fewer installations, and smaller agencies such as the Staten Island Railway (SIR) and MTA Bus have only several artworks. This suggests that the permanent art is not evenly distributed across transit modes, instead, it heavily prioritizes high-traffic urban subway spaces where visibility and public exposure are the highest.
+A key finding is that the NYC Subway system (NYCT) dominates the dataset, containing the majority of those recorded artworks. In contrast, commuter rail systems such as the Long Island Rail Road (LIRR) and Metro-North have significantly fewer installations, and smaller agencies such as the Bridges and Tunnels (B&T) and MTA Bus have only one or two artworks. This suggests that the permanent art is not evenly distributed across transit modes, instead, it heavily prioritizes high-traffic urban subway spaces where visibility and public exposure are the highest.
 
 For the second pivot table and its line chart "Growth Over Time". 
 
