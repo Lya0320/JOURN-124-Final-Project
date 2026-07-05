@@ -14,7 +14,10 @@ This project analyzes the MTA Permanent Art Catalog, which comprises more than 
 
 The dataset need little cleaning before analysis. The important columns for analyzation are all completed with no null or empty values in it. So no major missing data imputation and data cleaning is required here.
 
-For the first pivot table and bar chart "Agency Distribution". This group artworks by MTA agency and quantified the number of installations in each category. Across the transit system, the results indicate a highly irregular distribution of permanent artworks.
+For the first pivot table and bar chart "Agency Distribution". 
+![This is a chart showing the distribution of artworks across different agencies](Distribution of Permanent Art Across MTA Agencies.png)
+
+This group artworks by MTA agency and quantified the number of installations in each category. Across the transit system, the results indicate a highly irregular distribution of permanent artworks.
 A key finding is that the NYC Subway system (NYCT) dominates the dataset, containing the majority of those recorded artworks. In contrast, commuter rail systems such as the Long Island Rail Road (LIRR) and Metro-North have significantly fewer installations, and smaller agencies such as the Staten Island Railway (SIR) and MTA Bus have only several artworks. This suggests that the permanent art is not evenly distributed across transit modes, instead, it heavily prioritizes high-traffic urban subway spaces where visibility and public exposure are the highest.
 
 For the second table and its line chart "Distribution Over Time". This aggregates artworks by installation year.
