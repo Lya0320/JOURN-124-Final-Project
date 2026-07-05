@@ -19,12 +19,15 @@ For the first pivot table and its bar chart "Distribution Across Agencies". 
 
 ![This is a chart showing the distribution of artworks across different agencies](DistributionAcrossAgencies.png)
 
-This group artworks by MTA agency and quantified the number of installations in each category. Across the transit system, the results indicate a highly irregular distribution of permanent artworks.
+The dataset is grouped by agency type and the number of artworks in each group is obtained using a COUNTA aggregation of artwork titles. This enabled a comparison of the distribution of public art across different transit systems, such as NYCT, LIRR and Metro-North. The numbers obtained are then represented as a bar chart in order to make discrepancies in distribution more readily obvious. The technique shows a highly irregular distribution of permanent artworks within the NYC Subway system compared to other transit agencies.
+
 A key finding is that the NYC Subway system (NYCT) dominates the dataset, containing the majority of those recorded artworks. In contrast, commuter rail systems such as the Long Island Rail Road (LIRR) and Metro-North have significantly fewer installations, and smaller agencies such as the Staten Island Railway (SIR) and MTA Bus have only several artworks. This suggests that the permanent art is not evenly distributed across transit modes, instead, it heavily prioritizes high-traffic urban subway spaces where visibility and public exposure are the highest.
 
-For the second pivot table and its line chart "Growth Over Time". This aggregates artworks by installation year.
+For the second pivot table and its line chart "Growth Over Time". 
 
 ![This is a line chart showing how number of artworks change over the time from 1980 to 2025](GrowthOverTime.png)
+
+This pivot table is grouped by year and use A COUNTA aggregate to calculate the number of artworks installed in each year. A line chart was used to show the generated time-series data in order to spot trends and variations across time. This approach makes it feasible to observe the trend, showing a cyclical tendency.
 
 The results show that artwork installations are not evenly distributed over the time. The line is not perfectly linear or stable, instead, it fluctuates significantly across years, and there are periods of higher artistic activity followed by slower periods. Another notable finding is a significant increase in installations in 2018 and reach the peak among these years, this suggests that the program may have expanded or become more active in commissioning public art. It also reflects there might be some changes in funding cycles, transit development projects, or shifts in institutional priorities at that time.
 
